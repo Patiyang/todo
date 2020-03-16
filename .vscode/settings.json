@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "backend/env/bin",
+     "python.linting.pylintEnabled": true,
+     "python.linting.enabled": true,
+    "python.linting.pylintArgs": ["--load-plugins", "pylint-flask"],
+    "dart.sdkPath": "/home/patto/IDEs/flutter/bin/cache/dart-sdk"
+}
