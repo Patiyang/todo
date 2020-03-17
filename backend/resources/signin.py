@@ -1,6 +1,6 @@
 from flask_restful import Resource
 from flask import request
-from models import db, User, UserSchema
+from backend.models import db, User, UserSchema
 import random
 import string
 
@@ -10,7 +10,6 @@ user_schema = UserSchema()
 
 class SignIn(Resource):
     def post(self):
-        # result = ''
         json_data = request.get_json(force=True)
         header = request.headers['Authorization']
         
